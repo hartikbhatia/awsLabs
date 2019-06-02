@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vedio"
+   android:background="#ffff">
+
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lab 1-Amazon EC2"
+        android:textSize="40dp"
+        android:onClick="lab1click"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:onClick="lab2click"
+        android:paddingLeft="5dp"
+        android:text="Lab 2-EBS"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:paddingLeft="5dp"
+        android:id="@+id/textView"
+        android:onClick="lab3click"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="189dp"
+        android:text="Lab 3-VPC"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:onClick="lab4click"
+        android:paddingLeft="5dp"
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="-189dp"
+        android:text="Lab 4-Build DB"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:onClick="lab5click"
+        android:paddingLeft="5dp"
+        android:text="Lab 5-"
+        android:textColor="#000"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:onClick="lab6click"
+        android:paddingLeft="5dp"
+        android:text="Lab 6-AWS IAM"
+        android:textColor="#000"
+        android:textSize="40dp"
+        android:layout_alignParentLeft="true" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="351dp"
+        android:layout_height="134dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="126dp"
+        app:srcCompat="@drawable/aws" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="241dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignParentEnd="true"
+        android:text="Scale and Load Balance "
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
